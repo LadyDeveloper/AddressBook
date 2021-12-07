@@ -37,7 +37,7 @@ namespace AddressBook.Models
         [Display(Name = "Image")]
         [DataType(DataType.Upload)]
         public IFormFile ImageFile { get; set; }
-        public byte[] ImageDate { get; set; }
+        public byte[] ImageData { get; set; }
         public string ImageType { get; set; }
 
         public int Id { get; set; }
